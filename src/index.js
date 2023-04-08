@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import "./App.css";
+import axios from "axios";
 
 import { worker } from "./mocks/browser";
 worker.start();
